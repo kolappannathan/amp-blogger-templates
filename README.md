@@ -1,5 +1,4 @@
 # Amp blogger templates
-***
 
 This repository contains AMP (Accelerated Mobile Pages) based responsive themes for blogger.
 
