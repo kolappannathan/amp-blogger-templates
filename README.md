@@ -2,6 +2,7 @@
 
 [![GitHub](https://img.shields.io/github/license/kolappannathan/amp-blogger-templates.svg?style=flat-square)](#)
 [![GitHub issues](https://img.shields.io/github/issues/kolappannathan/amp-blogger-templates.svg?style=flat-square)](#)
+[![GitHub contributors](https://img.shields.io/github/contributors/kolappannathan/amp-blogger-templates.svg?color=orange&style=flat-square)](#)
 
 This repository contains AMP (Accelerated Mobile Pages) based responsive themes that can be used with Blogger.
 
