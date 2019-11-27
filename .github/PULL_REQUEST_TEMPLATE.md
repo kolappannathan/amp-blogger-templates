@@ -1,5 +1,5 @@
 ### IMPORTANT
-**Make sure that the changes work on blogger before sending a pull request**
+Make sure that the changes work on **blogger** before sending a pull request
 
 ## Description
 Describe your changes here
