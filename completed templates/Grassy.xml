@@ -4,7 +4,6 @@
   <head>
     <meta charset='utf-8'/>
     <meta content='width=device-width,minimum-scale=1,initial-scale=1' name='viewport'/>
-    <link expr:href='data:blog.url' rel='canonical'/>
     <b:include data='blog' name='all-head-content'/>
     <title><data:blog.pageTitle/></title>
     <b:skin><![CDATA[]]></b:skin>
