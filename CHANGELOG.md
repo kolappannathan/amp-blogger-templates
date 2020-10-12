@@ -10,6 +10,7 @@
 ### Removed
  - Removed animations in Blog title
  - Removed Google+ URL
+ - Removed Quickedit icons whereever possible
 
 ### [16.0.0] - Oct 18, 2016
 Initial release.
