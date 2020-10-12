@@ -10,7 +10,7 @@
     <b:skin><![CDATA[]]></b:skin>
     <b:template-skin><![CDATA[]]></b:template-skin>
 
-   <style amp-custom='amp-custom'>
+         <style amp-custom='amp-custom'>
     /*----------------AMP------------------------------*/
     amp-img {
           border: 5px solid black;
@@ -246,13 +246,33 @@
    </style>
 
     <!--AMP code-->
-    <style amp-boilerplate='amp-boilerplate'>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate='amp-boilerplate'>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    
     <script async='async' src='https://cdn.ampproject.org/v0.js'/>
-    <!--end of AMP code-->
-
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <style amp-boilerplate='amp-boilerplate'>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate='amp-boilerplate'>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    
+    <!--END of AMP code-->
+    
   </head>
 
   <body expr:class='&quot;loading&quot; + data:blog.mobileClass'>
+  
+    <!-- GOOGLE ANALYTICS TAG -->
+    <amp-analytics type="gtag" data-credentials="include">
+      <script type="application/json">
+        {
+        "vars" : {
+        "gtag_id": "UA-XXXXXXXX-X",
+        "config" : {
+        "UA-XXXXXXXX-X": { "groups": "default" }
+        }
+        }
+        }
+      </script>
+    </amp-analytics>
+    
+    <!-- END of GOOGLE ANALYTICS TAG -->
+  
   <b:section class='navbar' id='navbar' maxwidgets='1' name='Navbar' showaddelement='no'>
     <b:widget id='Navbar1' locked='false' title='Navbar' type='Navbar' version='1'>
       <b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
