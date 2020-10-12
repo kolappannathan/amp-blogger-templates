@@ -1,8 +1,16 @@
 # Change Log
 
 ### Unreleased
+### Changed
+ - Fixed duplicate canonical URL error
+ - Replaced Background images with colors
+ - Removed browser prefixes that are no longer needed
+ - Fixed some CSS errors
 
-### v 16.0.0
-##### Oct 18, 2016
+### Removed
+ - Removed animations in Blog title
+ - Removed Google+ URL
+
+### [16.0.0] - Oct 18, 2016
 Initial release.
 A single amp template which is currently used by me in my blogs is uploaded here.
