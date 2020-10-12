@@ -247,7 +247,7 @@
     <!--AMP code-->
     
     <script async='async' src='https://cdn.ampproject.org/v0.js'/>
-    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <script async='async' custom-element='amp-analytics' src='https://cdn.ampproject.org/v0/amp-analytics-0.1.js'/>
     <style amp-boilerplate='amp-boilerplate'>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate='amp-boilerplate'>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     
     <!--END of AMP code-->
@@ -257,13 +257,13 @@
   <body expr:class='&quot;loading&quot; + data:blog.mobileClass'>
   
     <!-- GOOGLE ANALYTICS TAG -->
-    <amp-analytics type="gtag" data-credentials="include">
-      <script type="application/json">
+    <amp-analytics data-credentials='include' type='gtag'>
+      <script type='application/json'>
         {
-        "vars" : {
-        "gtag_id": "UA-XXXXXXXX-X",
-        "config" : {
-        "UA-XXXXXXXX-X": { "groups": "default" }
+        &quot;vars&quot; : {
+        &quot;gtag_id&quot;: &quot;UA-XXXXXXXX-A&quot;,
+        &quot;config&quot; : {
+        &quot;UA-XXXXXXXX-A&quot;: { &quot;groups&quot;: &quot;default&quot; }
         }
         }
         }
@@ -290,7 +290,7 @@
       gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
         if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
           gapi.iframes.getContext().openChild({
-              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d6066741840563818339\x26blogName\x3dAMP+in+Blogger\x26publishMode\x3dPUBLISH_MODE_HOSTED\x26navbarType\x3dDISABLED\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://amp-blog.kolappan.dev/search\x26blogLocale\x3den_GB\x26v\x3d2\x26homepageUrl\x3dhttps://amp-blog.kolappan.dev/\x26vt\x3d7512173851400935326&#39;,
+              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d6066741840563818339\x26blogName\x3dAMP+in+Blogger\x26publishMode\x3dPUBLISH_MODE_HOSTED\x26navbarType\x3dDISABLED\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://amp-blog.kolappan.dev/search\x26blogLocale\x3den_GB\x26v\x3d2\x26homepageUrl\x3dhttp://amp-blog.kolappan.dev/\x26vt\x3d-3971950186720433773&#39;,
               where: document.getElementById(&quot;navbar-iframe-container&quot;),
               id: &quot;navbar-iframe&quot;
           });
@@ -500,7 +500,6 @@ head.appendChild(script);
         </b:loop>
       </ul>
     </b:if>
-    <b:include name='quickedit'/>
   </div>
 </b:includable>
         </b:widget>
@@ -1094,9 +1093,6 @@ head.appendChild(script);
           </a>
           </span>
         </b:if>
-
-        <!-- quickedit pencil -->
-        <b:include data='post' name='postQuickEdit'/>
       </span> </div>
 
       <div class='post-footer-line post-footer-line-3'/>
@@ -1116,16 +1112,7 @@ head.appendChild(script);
     </div>
   </div>
 </b:includable>
-              <b:includable id='postQuickEdit' var='post'>
-  <b:if cond='data:post.editUrl'>
-    <span expr:class='&quot;item-control &quot; + data:post.adminClass'>
-      <a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
-        <amp-img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
-      </a>
-    </span>
-  </b:if>
-</b:includable>
-              <b:includable id='shareButtons' var='post'>
+<b:includable id='shareButtons' var='post'>
   <b:if cond='data:top.showEmailButton'><a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &quot;&amp;target=email&quot;' expr:title='data:top.emailThisMsg' target='_blank'><span class='share-button-link-text'><data:top.emailThisMsg/></span></a></b:if><b:if cond='data:top.showBlogThisButton'><a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &quot;&amp;target=blog&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' expr:title='data:top.blogThisMsg' target='_blank'><span class='share-button-link-text'><data:top.blogThisMsg/></span></a></b:if><b:if cond='data:top.showTwitterButton'><a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + &quot;&amp;target=twitter&quot;' expr:title='data:top.shareToTwitterMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToTwitterMsg/></span></a></b:if><b:if cond='data:top.showFacebookButton'><a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + &quot;&amp;target=facebook&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToFacebookMsg/></span></a></b:if><b:if cond='data:top.showPinterestButton'><a class='goog-inline-block share-button sb-pinterest' expr:href='data:post.sharePostUrl + &quot;&amp;target=pinterest&quot;' expr:title='data:top.shareToPinterestMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToPinterestMsg/></span></a></b:if><b:if cond='data:top.showPlusOne'><div class='goog-inline-block google-plus-share-container'><data:post.googlePlusShareTag/></div></b:if>
 </b:includable>
               <b:includable id='status-message'>
@@ -1163,7 +1150,7 @@ head.appendChild(script);
     </script>
   </div>
 </b:includable>
-              <b:includable id='threaded_comment_js' var='post'>
+<b:includable id='threaded_comment_js' var='post'>
   <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
 
   <script type='text/javascript'>
@@ -1447,15 +1434,13 @@ head.appendChild(script);
             <b:widget-setting name='copyright'>AMP Blogger Template</b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
-    <div class='widget-content' style='text-align: center;'>
-      <b:if cond='data:attribution != &quot;&quot;'>
-       <data:attribution/>
-      </b:if>
-    </div>
-
-    <b:include name='quickedit'/>
-  </b:includable>
-        </b:widget>
+    		<div class='widget-content' style='text-align: center;'>
+      		<b:if cond='data:attribution != &quot;&quot;'>
+       			<data:attribution/>
+      		</b:if>
+    		</div>
+  		</b:includable>
+      </b:widget>
       </b:section>
     </div>
     </div>
