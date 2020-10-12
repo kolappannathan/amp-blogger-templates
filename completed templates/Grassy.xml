@@ -135,60 +135,6 @@
      font-size: 220%
     
     }
-    .title:hover
-    {
-       -webkit-stroke-width: 5.3px;
-       -webkit-stroke-color: #FFFFFF;
-       -webkit-fill-color: #FFFFFF;
-       text-shadow: 1px 0px 20px yellow;
-       -webkit-transition: width 0.3s;
-       transition: width 0.3s;
-       -moz-transition: width 0.3s;
-       -o-transition: width 0.3s
-    }
-    .title
-    {
-      animation-name: title;
-      animation-duration: 10s;
-      animation-iteration-count: infinite;
-    }
-
-   @keyframes title
-   {
-       3%   {color: #ff5500; transform: rotate(0.4deg);}
-       7%   {color: #cf5500; transform: rotate(-0.4deg);}
-       10%  {color: #f27d7d; transform: rotate(0.4deg);}
-       13%  {color: #f29b7d; transform: rotate(-0.4deg);}
-       17%  {color: #f2bb7d; transform: rotate(0.4deg);}
-       20%  {color: #f7ad59; transform: rotate(-0.4deg);}
-  	   23%  {color: #f2a87d; transform: rotate(0.4deg);}
-       27%  {color: #f29b7d; transform: rotate(-0.4deg);}
-       30%  {color: #f7c94a; transform: rotate(0.4deg);}
-	     33%  {color: #f1f74a; transform: rotate(-0.4deg);}
-       37%  {color: #bdf74a; transform: rotate(0.4deg);}
-       40%  {color: #8cf74a; transform: rotate(-0.4deg);}
-	    43%  {color: #4af772; transform: rotate(0.4deg);}
-       47%  {color: #4af7af; transform: rotate(-0.4deg);}
-       50%  {color: #4af7d1; transform: rotate(0.4deg);}
-	   53%  {color: #4af7f7; transform: rotate(-0.4deg);}
-       57%  {color: #4acef7; transform: rotate(0.4deg);}
-       60%  {color: #4ab2f7; transform: rotate(-0.4deg);}
-	   63%  {color: #4a86f7; transform: rotate(0.4deg);}
-       67%  {color: #4a5ef7; transform: rotate(-0.4deg);}
-       70%  {color: #7e4af7; transform: rotate(0.4deg);}
-	   73%  {color: #a34af7; transform: rotate(-0.4deg);}
-       77%  {color: #c34af7; transform: rotate(0.4deg);}
-       80%  {color: #e04af7; transform: rotate(-0.4deg);}
-	   83%  {color: #f74ae6; transform: rotate(0.4deg);}
-       87%  {color: #f74acc; transform: rotate(-0.4deg);}
-       90%  {color: #f74a9d; transform: rotate(0.4deg);}
-	   93%  {color: #f74a69; transform: rotate(-0.4deg);}
-       97%  {color: #f74a4a; transform: rotate(0.4deg);}
-       100% {color: #f91111; transform: rotate(-0.4deg);}
-	}
-
-
-
 
 	.header-outer
 	{
@@ -418,7 +364,7 @@
 
   <body expr:class='&quot;loading&quot; + data:blog.mobileClass'>
   <b:section class='navbar' id='navbar' maxwidgets='1' name='Navbar' showaddelement='no'>
-    <b:widget id='Navbar1' locked='false' title='Navbar' type='Navbar' version='1' visible='true'>
+    <b:widget id='Navbar1' locked='false' title='Navbar' type='Navbar' version='1'>
       <b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
     function setAttributeOnload(object, attribute, val) {
       if(window.addEventListener) {
@@ -435,7 +381,7 @@
       gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
         if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
           gapi.iframes.getContext().openChild({
-              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d401585155028749085\x26blogName\x3dWindows+Mobile+Tutors\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dDISABLED\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://win-mobile-tutors.blogspot.com/search\x26blogLocale\x3den_GB\x26v\x3d2\x26homepageUrl\x3dhttps://win-mobile-tutors.blogspot.com/\x26vt\x3d895639526727755706&#39;,
+              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d6066741840563818339\x26blogName\x3dAMP+in+Blogger\x26publishMode\x3dPUBLISH_MODE_HOSTED\x26navbarType\x3dDISABLED\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://amp-blog.kolappan.dev/search\x26blogLocale\x3den_GB\x26v\x3d2\x26homepageUrl\x3dhttps://amp-blog.kolappan.dev/\x26vt\x3d7512173851400935326&#39;,
               where: document.getElementById(&quot;navbar-iframe-container&quot;),
               id: &quot;navbar-iframe&quot;
           });
@@ -520,7 +466,16 @@ head.appendChild(script);
     <div class='fauxborder-right header-fauxborder-right'/>
     <div class='region-inner header-inner'>
       <b:section class='header' id='header' maxwidgets='1' name='Header' showaddelement='no'>
-        <b:widget id='Header1' locked='false' title='Windows Mobile Tutors (Header)' type='Header' version='1' visible='true'>
+        <b:widget id='Header1' locked='false' title='AMP in Blogger (Header)' type='Header' version='1'>
+          <b:widget-settings>
+            <b:widget-setting name='displayUrl'/>
+            <b:widget-setting name='displayHeight'>0</b:widget-setting>
+            <b:widget-setting name='sectionWidth'>-1</b:widget-setting>
+            <b:widget-setting name='useImage'>false</b:widget-setting>
+            <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+            <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
+            <b:widget-setting name='displayWidth'>0</b:widget-setting>
+          </b:widget-settings>
           <b:includable id='main'>
 
   <b:if cond='data:useImage'>
@@ -608,30 +563,31 @@ head.appendChild(script);
     <div class='fauxborder-right tabs-fauxborder-right'/>
     <div class='region-inner tabs-inner'>
       <b:section class='tabs' id='crosscol' maxwidgets='1' name='Cross-Column' showaddelement='yes'>
-        <b:widget id='PageList1' locked='false' title='Pages' type='PageList' visible='true'>
+        <b:widget id='PageList1' locked='false' title='Pages' type='PageList'>
+          <b:widget-settings>
+            <b:widget-setting name='pageListJson'><![CDATA[{'home': {'href': 'https://amp-in-blogger.blogspot.com/', 'title': 'Home', 'position': 0}, '120305160727602475': {'href': 'https://amp-in-blogger.blogspot.com/p/about.html', 'title': 'About', 'position': 1}}]]></b:widget-setting>
+            <b:widget-setting name='homeTitle'>Home</b:widget-setting>
+          </b:widget-settings>
           <b:includable id='main'>
   <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
   <div class='widget-content'>
     <b:if cond='data:mobile'>
       <select expr:id='data:widget.instanceId + &quot;_select&quot;'>
         <b:loop values='data:links' var='link'>
-          <b:if cond='data:link.isCurrentPage'>
-            <option expr:value='data:link.href' selected='selected'><data:link.title/></option>
-          <b:else/>
-            <option expr:value='data:link.href'><data:link.title/></option>
-          </b:if>
+          <option expr:value='data:link.href'>
+            <b:attr cond='data:link.isCurrentPage' name='selected' value='selected'/>
+            <data:link.title/>
+          </option>
         </b:loop>
       </select>
       <span class='pagelist-arrow'>&amp;#9660;</span>
-
     <b:else/>
       <ul>
         <b:loop values='data:links' var='link'>
-          <b:if cond='data:link.isCurrentPage'>
-            <li class='selected'><a expr:href='data:link.href'><data:link.title/></a></li>
-          <b:else/>
-            <li><a expr:href='data:link.href'><data:link.title/></a></li>
-          </b:if>
+          <li>
+            <b:class cond='data:link.isCurrentPage' name='selected'/>
+            <a expr:href='data:link.href'><data:link.title/></a>
+          </li>
         </b:loop>
       </ul>
     </b:if>
@@ -640,82 +596,7 @@ head.appendChild(script);
 </b:includable>
         </b:widget>
       </b:section>
-      <b:section class='tabs' id='crosscol-overflow' name='Cross-Column 2' showaddelement='no'>
-        <b:widget id='BlogSearch1' locked='false' title='Need anything? Search here.' type='BlogSearch' version='1' visible='true'>
-          <b:includable id='main'>
-    <!-- only display title if it's non-empty -->
-    <b:if cond='data:title != &quot;&quot;'>
-      <h2 class='title'><data:title/></h2>
-    </b:if>
-
-    <div class='widget-content'>
-      <div expr:id='data:widget.instanceId + &quot;_form&quot;'>
-        <span class='cse-status'><data:loadingMsg/></span>
-      </div>
-    </div>
-
-    <!-- override gsearch.css -->
-    <style amp-custom='amp-custom' type='text/css'>
-      #uds-searchControl .gs-result .gs-title,
-      #uds-searchControl .gs-result .gs-title *,
-      #uds-searchControl .gsc-results .gsc-trailing-more-results,
-      #uds-searchControl .gsc-results .gsc-trailing-more-results * {
-        color:<data:linkColor/>;
-      }
-
-      #uds-searchControl .gs-result .gs-title a:visited,
-      #uds-searchControl .gs-result .gs-title a:visited * {
-        color:<data:visitedLinkColor/>;
-      }
-
-      #uds-searchControl .gs-relativePublishedDate,
-      #uds-searchControl .gs-publishedDate {
-        color: <data:dateColor/>;
-      }
-
-      #uds-searchControl .gs-result a.gs-visibleUrl,
-      #uds-searchControl .gs-result .gs-visibleUrl {
-        color: <data:urlColor/>;
-      }
-
-      #uds-searchControl .gsc-results {
-        border-color: <data:borderColor/>;
-        background-color: <data:backgroundColor/>;
-      }
-
-      #uds-searchControl .gsc-tabhActive {
-        border-color: <data:borderColor/>;
-        border-top-color: <data:activeBorderColor/>;
-        background-color: <data:backgroundColor/>;
-        color: <data:textColor/>;
-      }
-
-      #uds-searchControl .gsc-tabhInactive {
-        border-color: <data:borderColor/>;
-        background-color: transparent;
-        color: <data:linkColor/>;
-      }
-
-      #uds-searchClearResults {
-        border-color: <data:borderColor/>;
-      }
-
-      #uds-searchClearResults:hover {
-        border-color: <data:activeBorderColor/>;
-      }
-
-      #uds-searchControl .gsc-cursor-page {
-        color: <data:linkColor/>;
-      }
-
-      #uds-searchControl .gsc-cursor-current-page {
-        color: <data:textColor/>;
-      }
-    </style>
-    <b:include name='quickedit'/>
-  </b:includable>
-        </b:widget>
-      </b:section>
+      <b:section class='tabs' id='crosscol-overflow' name='Cross-Column 2' showaddelement='no'/>
     </div></div>
     <div class='tabs-cap-bottom cap-bottom'>
       <div class='cap-left'/>
@@ -787,7 +668,30 @@ head.appendChild(script);
         <div class='column-center-outer'>
         <div class='column-center-inner'>
           <b:section class='main' id='main' name='Main' showaddelement='no'>
-            <b:widget id='Blog1' locked='false' title='Blog Posts' type='Blog' version='1' visible='true'>
+            <b:widget id='Blog1' locked='false' title='Blog Posts' type='Blog' version='1'>
+              <b:widget-settings>
+                <b:widget-setting name='showDateHeader'>true</b:widget-setting>
+                <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
+                <b:widget-setting name='showShareButtons'>false</b:widget-setting>
+                <b:widget-setting name='authorLabel'>By</b:widget-setting>
+                <b:widget-setting name='showCommentLink'>false</b:widget-setting>
+                <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
+                <b:widget-setting name='showAuthor'>true</b:widget-setting>
+                <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
+                <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
+                <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+                <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+                <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+                <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+                <b:widget-setting name='showLabels'>false</b:widget-setting>
+                <b:widget-setting name='showLocation'>false</b:widget-setting>
+                <b:widget-setting name='showTimestamp'>false</b:widget-setting>
+                <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+                <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+                <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+                <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+                <b:widget-setting name='showReactions'>false</b:widget-setting>
+              </b:widget-settings>
               <b:includable id='main' var='top'>
   <b:if cond='!data:mobile'>
     <!-- posts -->
@@ -847,32 +751,7 @@ head.appendChild(script);
     </a>
   </span>
 </b:includable>
-              <b:includable id='backlinks' var='post'>
-  <a name='links'/><h4><data:post.backlinksLabel/></h4>
-  <b:if cond='data:post.numBacklinks != 0'>
-    <dl class='comments-block' id='comments-block'>
-      <b:loop values='data:post.backlinks' var='backlink'>
-        <div class='collapsed-backlink backlink-control'>
-          <dt class='comment-title'>
-            <span class='backlink-toggle-zippy'>&#160;</span>
-            <a expr:href='data:backlink.url' rel='nofollow'><data:backlink.title/></a>
-            <b:include data='backlink' name='backlinkDeleteIcon'/>
-          </dt>
-          <dd class='comment-body collapseable'>
-            <data:backlink.snippet/>
-          </dd>
-          <dd class='comment-footer collapseable'>
-            <span class='comment-author'><data:post.authorLabel/> <data:backlink.author/></span>
-            <span class='comment-timestamp'><data:post.timestampLabel/> <data:backlink.timestamp/></span>
-          </dd>
-        </div>
-      </b:loop>
-    </dl>
-  </b:if>
-  <p class='comment-footer'>
-    <a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + &quot;_backlinks-create-link&quot;' target='_blank'><data:post.createLinkLabel/></a>
-  </p>
-</b:includable>
+              <b:includable id='backlinks' var='post'/>
               <b:includable id='comment-form' var='post'>
   <div class='comment-form'>
     <a name='comment-form'/>
@@ -910,19 +789,12 @@ head.appendChild(script);
   </span>
 </b:includable>
               <b:includable id='comment_count_picker' var='post'>
-  <b:if cond='data:post.commentSource == 1'>
-    <span class='cmt_count_iframe_holder' expr:data-count='data:post.numComments' expr:data-onclick='data:post.addCommentOnclick' expr:data-post-url='data:post.url' expr:data-url='data:post.url.canonical.http'>
-    </span>
-  <b:else/>
-    <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'>
-      <data:post.commentLabelFull/>:
-    </a>
-  </b:if>
+  <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'>
+    <data:post.commentLabelFull/>:
+  </a>
 </b:includable>
               <b:includable id='comment_picker' var='post'>
-  <b:if cond='data:post.commentSource == 1'>
-    <b:include data='post' name='iframe_comments'/>
-  <b:elseif cond='data:post.showThreadedComments'/>
+  <b:if cond='data:post.showThreadedComments'>
     <b:include data='post' name='threaded_comments'/>
   <b:else/>
     <b:include data='post' name='comments'/>
@@ -1064,15 +936,7 @@ head.appendChild(script);
   </div>
 </b:includable>
               <b:includable id='iframe_comments' var='post'>
-
-  <b:if cond='data:post.allowIframeComments'>
-    <script expr:src='data:post.iframeCommentSrc' type='text/javascript'/>
-    <div class='cmt_iframe_holder' expr:data-href='data:post.url.canonical' expr:data-viewtype='data:post.viewType'/>
-
-    <b:if cond='data:post.embedCommentForm == &quot;false&quot;'>
-      <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:postCommentMsg/></a>
-    </b:if>
-  </b:if>
+  <!-- G+ comments, no longer available. The includable is retained for backwards-compatibility. -->
 </b:includable>
               <b:includable id='mobile-index-post' var='post'>
   <div class='mobile-date-outer date-outer'>
@@ -1669,14 +1533,11 @@ head.appendChild(script);
       </macro:include>
       <!-- outside of the include in order to lock Attribution widget -->
       <b:section class='foot' id='footer-3' name='Footer' showaddelement='no'>
-        <b:widget id='Attribution1' locked='false' title='' type='Attribution' visible='true'>
+        <b:widget id='Attribution1' locked='false' title='' type='Attribution'>
+          <b:widget-settings>
+            <b:widget-setting name='copyright'>AMP Blogger Template</b:widget-setting>
+          </b:widget-settings>
           <b:includable id='main'>
-    <b:if cond='data:feedbackSurveyLink'>
-      <div class='mobile-survey-link' style='text-align: center;'>
-        <data:feedbackSurveyLink/>
-      </div>
-    </b:if>
-
     <div class='widget-content' style='text-align: center;'>
       <b:if cond='data:attribution != &quot;&quot;'>
        <data:attribution/>
@@ -1752,134 +1613,4 @@ head.appendChild(script);
   </macro:if>
 </macro:includable>
 
-<b:section-contents id='footer-1'>
-  <b:widget id='AdSense2' locked='false' title='' type='AdSense' visible='true'>
-    <b:includable id='main'>
-  <div class='widget-content'>
-    <data:adCode/>
-    <b:include name='quickedit'/>
-  </div>
-</b:includable>
-  </b:widget>
-  <b:widget id='AdSense1' locked='false' title='' type='AdSense' visible='true'>
-    <b:includable id='main'>
-  <div class='widget-content'>
-    <data:adCode/>
-    <b:include name='quickedit'/>
-  </div>
-</b:includable>
-  </b:widget>
-</b:section-contents><b:section-contents id='footer-2-1'>
-  <b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts' version='1' visible='true'>
-    <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
-  <div class='widget-content popular-posts'>
-    <ul>
-      <b:loop values='data:posts' var='post'>
-      <li>
-        <b:if cond='!data:showThumbnails'>
-          <b:if cond='!data:showSnippets'>
-            <!-- (1) No snippet/thumbnail -->
-            <a expr:href='data:post.href'><data:post.title/></a>
-          <b:else/>
-            <!-- (2) Show only snippets -->
-            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
-            <div class='item-snippet'><data:post.snippet/></div>
-          </b:if>
-        <b:else/>
-          <!-- (3) Show only thumbnails or (4) Snippets and thumbnails. -->
-          <div expr:class='data:showSnippets ? &quot;item-content&quot; : &quot;item-thumbnail-only&quot;'>
-            <b:if cond='data:post.featuredImage.isResizable or data:post.thumbnail'>
-              <div class='item-thumbnail'>
-                <a expr:href='data:post.href' target='_blank'>
-                  <b:with value='data:post.featuredImage.isResizable                                  ? resizeImage(data:post.featuredImage, 72, &quot;1:1&quot;)                                  : data:post.thumbnail' var='image'>
-                    <amp-img alt='' border='0' expr:src='data:image'/>
-                  </b:with>
-                </a>
-              </div>
-            </b:if>
-            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
-            <b:if cond='data:showSnippets'>
-              <div class='item-snippet'><data:post.snippet/></div>
-            </b:if>
-          </div>
-          <div style='clear: both;'/>
-        </b:if>
-      </li>
-      </b:loop>
-    </ul>
-    <b:include name='quickedit'/>
-  </div>
-</b:includable>
-  </b:widget>
-</b:section-contents><b:section-contents id='footer-2-2'>
-  <b:widget id='BlogArchive1' locked='false' title='Blog Archive' type='BlogArchive' visible='true'>
-    <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-  <div id='ArchiveList'>
-  <div expr:id='data:widget.instanceId + &quot;_ArchiveList&quot;'>
-    <b:include cond='data:style == &quot;HIERARCHY&quot;' data='data' name='interval'/>
-    <b:include cond='data:style == &quot;FLAT&quot;' data='data' name='flat'/>
-    <b:include cond='data:style == &quot;MENU&quot;' data='data' name='menu'/>
-  </div>
-  </div>
-  <b:include name='quickedit'/>
-  </div>
-</b:includable>
-    <b:includable id='flat' var='data'>
-  <ul class='flat'>
-    <b:loop values='data:data' var='i'>
-      <li class='archivedate'>
-        <a expr:href='data:i.url'><data:i.name/></a> (<data:i.post-count/>)
-      </li>
-    </b:loop>
-  </ul>
-</b:includable>
-    <b:includable id='interval' var='intervalData'>
-  <b:loop values='data:intervalData' var='interval'>
-    <ul class='hierarchy'>
-      <li expr:class='&quot;archivedate &quot; + data:interval.expclass'>
-        <b:include cond='data:interval.toggleId' data='interval' name='toggle'/>
-        <a class='post-count-link' expr:href='data:interval.url'>
-          <data:interval.name/>
-        </a>
-        <span class='post-count' dir='ltr'>(<data:interval.post-count/>)</span>
-        <b:include cond='data:interval.data' data='interval.data' name='interval'/>
-        <b:include cond='data:interval.posts' data='interval.posts' name='posts'/>
-      </li>
-    </ul>
-  </b:loop>
-</b:includable>
-    <b:includable id='menu' var='data'>
-  <select expr:id='data:widget.instanceId + &quot;_ArchiveMenu&quot;'>
-    <option value=''><data:title/></option>
-    <b:loop values='data:data' var='i'>
-      <option expr:value='data:i.url'><data:i.name/> (<data:i.post-count/>)</option>
-    </b:loop>
-  </select>
-</b:includable>
-    <b:includable id='posts' var='posts'>
-  <ul class='posts'>
-    <b:loop values='data:posts' var='post'>
-      <li><a expr:href='data:post.url'><data:post.title/></a></li>
-    </b:loop>
-  </ul>
-</b:includable>
-    <b:includable id='toggle' var='interval'>
-  <a class='toggle' href='javascript:void(0)'>
-    <span expr:class='&quot;zippy&quot; + (data:interval.expclass == &quot;expanded&quot; ? &quot; toggle-open&quot; : &quot;&quot;)'>
-      <b:if cond='data:interval.expclass == &quot;expanded&quot;'>
-        &#9660;&#160;
-      <b:elseif cond='data:blog.languageDirection == &quot;rtl&quot;'/>
-        &#9668;&#160;
-      <b:else/>
-        &#9658;&#160;
-      </b:if>
-    </span>
-  </a>
-</b:includable>
-  </b:widget>
-</b:section-contents></html>
+<b:section-contents id='footer-1'/><b:section-contents id='footer-2-1'/><b:section-contents id='footer-2-2'/></html>
