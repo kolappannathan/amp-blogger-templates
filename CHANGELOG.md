@@ -1,6 +1,8 @@
 # Change Log
 
-### Unreleased
+## Unreleased
+
+## [20.0.0] - Oct 12, 2020
 ### Changed
  - Fixed duplicate canonical URL error
  - Replaced Background images with colors
