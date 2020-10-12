@@ -7,7 +7,6 @@
     <b:include data='blog' name='all-head-content'/>
     <title><data:blog.pageTitle/></title>
     <b:skin><![CDATA[]]></b:skin>
-    <b:template-skin><![CDATA[]]></b:template-skin>
 
          <style amp-custom='amp-custom'>
     /*----------------AMP------------------------------*/

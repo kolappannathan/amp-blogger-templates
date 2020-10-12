@@ -11,6 +11,7 @@
  - Removed animations in Blog title
  - Removed Google+ URL
  - Removed Quickedit icons whereever possible
+ - Removed template skin for the customize template option. (It was already not working)
 
 ### [16.0.0] - Oct 18, 2016
 Initial release.
