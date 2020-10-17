@@ -8,7 +8,9 @@
 
 This repository contains an AMP (Accelerated Mobile Pages) based responsive theme that can be used with Blogger.
 
-**Download** [![GitHub release](https://img.shields.io/github/release/kolappannathan/amp-blogger-templates.svg?logo=github&style=flat-square)](https://github.com/kolappannathan/amp-blogger-templates/releases)
+**Download**
+
+ - [![GitHub release](https://img.shields.io/github/release/kolappannathan/amp-blogger-templates.svg?logo=github&style=flat-square)](https://github.com/kolappannathan/amp-blogger-templates/releases)
  
 **Documentation** :
 
