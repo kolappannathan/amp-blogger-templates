@@ -2,11 +2,13 @@
 
 [![Project Website](https://img.shields.io/badge/View-Project%20website-blue.svg?logo=firefox&style=flat-square)](https://kolappan.dev/project/amp-blogger-templates)
 [![Live demo](https://img.shields.io/badge/View-Live%20demo-blue.svg?logo=firefox&style=flat-square)](https://amp-blog.kolappan.dev)
-[![GitHub](https://img.shields.io/github/license/kolappannathan/amp-blogger-templates.svg?style=flat-square)](#)
-[![GitHub issues](https://img.shields.io/github/issues/kolappannathan/amp-blogger-templates.svg?style=flat-square)](#)
-[![GitHub contributors](https://img.shields.io/github/contributors/kolappannathan/amp-blogger-templates.svg?color=orange&style=flat-square)](#)
 
-This repository contains an AMP (Accelerated Mobile Pages) based responsive theme that can be used with Blogger.
+This repository contains an AMP (Accelerated Mobile Pages) based responsive theme that can be used with Blogger. The blog is resposive & a live demo can be seen at [amp-blog.kolappan.dev](https://amp-blog.kolappan.dev). You can find see the list of blogger feature that works and doesn't works in [here](https://amp-blog.kolappan.dev/2020/10/what-works-and-what-does-not.html).
+
+**Notice:** Before you proceed note that this template does not pass the AMP Validation, Yet. There are some limitations in Blogger that I find it impossible to workaround at the moment. Some of them are
+ - The style tags in the error are inserted automatically by Blogger. Some of them such as b:skin cannot be removed.
+ - The quickedit icon which causes 3 errors is part of footer and I don't know how to remove it. I have removed all other quick edit icons.
+ - ATOM/XML is a valid MIME type. Ref: [IANA](https://www.iana.org/assignments/media-types/application/atom+xml). But the AMP validator doesn't recognize it.
 
 **Download**
 
