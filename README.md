@@ -1,5 +1,11 @@
 # AMP Blogger templates
 
+**This repo is archieved. Since I no longer use Blogger or AMP pages for a while now I don't think I'll able to contribute on this project anymore.**
+
+-----
+
+## Original Content
+
 This repository contains an AMP (Accelerated Mobile Pages) based responsive theme that can be used with Blogger. The blog is resposive & a live demo can be seen at [amp-blog.kolappan.dev](https://amp-blog.kolappan.dev). You can find see the list of blogger feature that works and doesn't works in [here](https://amp-blog.kolappan.dev/2020/10/what-works-and-what-does-not.html).
 
 **Notice:** Before you proceed note that this template does not pass the AMP Validation, Yet. There are some limitations in Blogger that I find it impossible to workaround at the moment. Some of them are
