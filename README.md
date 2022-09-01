@@ -6,7 +6,7 @@
 
 ## Original Content
 
-This repository contains an AMP (Accelerated Mobile Pages) based responsive theme that can be used with Blogger. The blog is resposive & a live demo can be seen at [amp-blog.kolappan.dev](https://amp-blog.kolappan.dev). You can find see the list of blogger feature that works and doesn't works in [here](https://amp-blog.kolappan.dev/2020/10/what-works-and-what-does-not.html).
+This repository contains an AMP (Accelerated Mobile Pages) based responsive theme that can be used with Blogger. The blog is resposive & a live demo can be seen at [amp-blog.kolappan.dev](https://amp-blog.kolappan.dev). You can find see the list of blogger feature that works and doesn't works in [here](https://github.com/kolappannathan/amp-blogger-templates/wiki/What-works-and-What-does-not%3F).
 
 **Notice:** Before you proceed note that this template does not pass the AMP Validation, Yet. There are some limitations in Blogger that I find it impossible to workaround at the moment. Some of them are
  - The style tags in the error are inserted automatically by Blogger. Some of them such as b:skin cannot be removed.
@@ -19,8 +19,8 @@ This repository contains an AMP (Accelerated Mobile Pages) based responsive them
  
 **Documentation** :
 
- 1. [How to apply AMP Template to Blogger?](https://amp-blog.kolappan.dev/2018/08/how-to-apply-amp-template-to-blogger.html)
- 2. [Making images responsive in AMP Blogger Template](https://amp-blog.kolappan.dev/2018/08/making-images-responsive-in-amp-blogger.html)
- 3. [Embending YouTube videos in this AMP template](https://amp-blog.kolappan.dev/2020/04/embending-youtube-videos-in-this-amp.html)
+ 1. [How to apply AMP Template to Blogger?](https://github.com/kolappannathan/amp-blogger-templates/wiki/Documentation#how-to-apply-amp-template-to-blogger)
+ 2. [Making images responsive in AMP Blogger Template](https://github.com/kolappannathan/amp-blogger-templates/wiki/Documentation#making-images-responsive-in-amp-blogger-template)
+ 3. [Embending YouTube videos in this AMP template](https://github.com/kolappannathan/amp-blogger-templates/wiki/Documentation#embedding-youtube-videos-in-this-amp-template)
 
 Feel free to reuse, share, improve and contribute.
